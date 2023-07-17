@@ -40,5 +40,6 @@ class TestHuman(unittest.TestCase):
             self.human._Human__is_alive()
         self.assertEqual(str(context.exception), "John is already dead...")
 
+
 if __name__ == '__main__':
     unittest.main()
