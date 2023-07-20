@@ -1,5 +1,7 @@
 class Human:
     def __init__(self, name: str, age: int, gender: str):
+        self.status = None
+        self.name = None
         self.__name = name
         self.__age = age
         self.__gender = gender
@@ -40,6 +42,3 @@ class Human:
     @property
     def gender(self) -> str:
         return self.__gender
-
-    def one_year_increase(self):
-        pass
