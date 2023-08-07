@@ -52,7 +52,7 @@ def test_driver():
     assert driver_chrome.find_element(By.XPATH, '''//a[15]''')
     assert driver_chrome.find_element(By.XPATH, '''//a[16]''')
     assert driver_chrome.find_element(By.XPATH, '''//a[17]''')
-    sleep(5)
+    sleep(3)
 
     # CSS locators
 
