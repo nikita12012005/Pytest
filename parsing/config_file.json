@@ -1,0 +1,7 @@
+{
+  "WebAppConfig": {
+    "base_url": "https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicnUifQ%3D%3D%22%7D",
+    "timeout": 10,
+    "browser": "chrome"
+  }
+}
